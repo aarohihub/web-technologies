@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+    color: rgb(111, 105, 39);
+    font-family: 'Pacifico', cursive;
+}
+img{
+    height: 600px;
+    width: 750px;
+}
+.parent{
+    width: 100%;
+}
+.son{
+    width: 50%;
+    float: left;
+}
+.daughter{
+    width: 50%;
+    float: right;
+}
+p{
+    font-family: 'Alkatra', cursive;
+    font-size: 30px;
+    line-height: 65px;
+}
+
+/*mobile devices*/
+@media (min-wdith:320px) and (max-width:480px){
+h1{
+background-color: firebrick;
+color: white;
+width: 100%;
+text-align: center;
+}
+}
+/*tablet devices*/
+@media (min-wdith:481px) and (max-width:768px){
+
+}
+/*laptop devices*/
+@media (min-wdith:769px) and (max-width:1024px){
+
+}

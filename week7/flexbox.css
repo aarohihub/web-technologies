@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex{
+    width: 100%;
+    border: 3px solid orangered;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    border: 1px solid pink;
+}
+.box1{
+    background-color: teal;
+}
+
+.box2{
+    background-color: azure;
+}
+
+.box3{
+    background-color: rosybrown;
+}
+
+.box4{
+    background-color: brown;
+}
+
+.box5{
+    background-color: indigo;
+}
+
+.box6{
+    background-color: beige;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+        h1{
+            text-align: center;
+            color:tan;
+            font-size: 60px;
+            font-family: 'Delicious Handrawn', cursive;
+        }
+        .parent{
+            width:100%;
+        }
+        .son{
+            width:50%;
+            float:left;
+        }
+        img{
+            width:500px;
+            height:auto;
+        }
+        .daughter{
+            width:50%;
+            float:right;
+        }
+        p{
+            font-size: 30px;
+            line-height: 50px;
+            font-family: 'Delicious Handrawn', cursive;
+            font-style: oblique;
+        }
+        @media (min-width:320px) and (max-width:480px){
+   h1{
+    background-color: tomato;
+    color:white;
+    width: 100%;
+    text-align: center;
+   }
+}
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <h1>Layout Designing</h1>
+        <div class="son">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, voluptatem laboriosam at quam quasi eligendi nesciunt vel hic repudiandae ut voluptate illum assumenda minima error vitae explicabo perferendis maiores delectus inventore ipsam, ratione quisquam. Sit tenetur vitae aspernatur consequuntur nihil? Tempora vitae consequatur, aspernatur ut ab repellat repudiandae quam exercitationem possimus impedit eveniet enim libero, neque assumenda nulla culpa modi ullam molestiae. Ad repudiandae obcaecati, at impedit nesciunt laborum architecto accusamus, vel itaque, eius facilis delectus! Cumque optio dolorum, libero velit accusantium facere mollitia omnis ab voluptatum autem maxime est doloribus molestias inventore aliquid exercitationem quibusdam! Voluptate, debitis accusantium. Maiores.</p>
+        </div>
+        <div class="daughter">
+            <img src="clock.jpg" alt="picture of a clock">
+        </div>
+    </div>
+</body>
+</html>
