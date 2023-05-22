@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact</title>
+        <style>
+            header{
+                padding: 10px;
+                background-color: black;
+                color: darkred;
+                text-align: center;
+                font-family: cursive;
+                overflow: hidden;
+            }
+            div h2, h3{
+                overflow: hidden;
+                background-color: black;
+                color: yellow;
+                padding: 5px;
+                font-family: cursive;
+            }
+            nav{
+                overflow: hidden;
+                background-color: green;
+            }
+
+            nav a{
+                float: left;
+                color: white;
+                padding: 10px 12px;
+                text-decoration: none;
+
+
+            }
+
+            nav a:hover{
+                background-color: white;
+                color: green;
+            }
+
+            footer{
+                clear: both;
+                overflow: hidden;
+                padding: 3px;
+                background-color: black;
+                color: green;
+                text-align: center;
+                font-family:cursive;
+            }
+            input[class=text]{
+                width: 100%;
+                padding: 5px;
+                margin: 5px;
+                color: green;
+                border: 5px solid black;
+            }
+
+            input[type=submit]{
+                margin: 5px;
+                padding: 10px;
+                border: none;
+                background-color: black;
+                color: orange;
+            }
+            select, input[class=checkbox]{
+                margin: 5px;
+                padding: 5px;
+                border: 5px solid red;
+            }
+        </style> 
+    </head>
+    <body>
+        <header>
+            <h1>Welcome To The Official Website Of Aarohi Bhatta</h1>
+            <p>Website Developer</p>
+
+        </header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="Gallery.html">Gallery</a>
+            <a href="friends.html">Friends</a>
+            <a href="contact.html">Contact Me</a>
+            <a href="Interest.html">Interest</a>
+        </nav>
+         
+         <div class="container">
+            <div>
+            <h2>Contact me</h2>
+            <p>If You have need any information and instruction , please contact me.</p>
+         </div>
+          
+          <form action="index.php">
+            <label class="Fname">First Name:</label>
+            <input class="text" name="Fnmae" placeholder="Enter your first name" id="Fname">
+            <iabel class="Lname">Last Name:</iabel>
+            <input class="text" name="Lname" placeholder="Enter your Last name  " id="Lname">
+            <label class="Uname">Username:</label>
+            <input class="text" name="Uname" id="Uname">
+            <iabel class="Pword">Password:</iabel>
+            <input class="text" name="pass" id="Pword">
+            <label class="pnumber">Phone No.:</label>
+            <input class="number" name="pnumber" id="pnumber" max="10" min="0"><br>
+            <fieldset>
+                <legend>Please Select Your Gender</legend>
+                <label class="gender">Gender:</label>
+            <input type="radio" name="gender" id="gender">Male
+            <input type="radio" name="gender" id="gender">Female
+            <input type="radio" name="gender" id="gender">Others<br>
+
+            <label class="country">Country:</label>
+            <select id="country">
+                <option>Nepal</option>
+                <option>Canada</option>
+                <option>America</option>
+                <option>India</option>
+                <option>Bhutan</option>
+            </select><br>
+            <label class="select your Interest"> Your Interest:</label>
+            <input type="checkbox" name="playing">Playing
+            <input type="checkbox" name="Dancing">Dancing
+            <input type="checkbox" name="Singing">Singing
+            <input type="checkbox" name="Reading books">Reading books <br>
+
+            <label class="subject">Subject:</label>
+            <textarea id="subject"></textarea>
+            <input type="submit" value="send message">
+            </fieldset>
+          </form>
+
+     </div>
+    </body>
+</html>
